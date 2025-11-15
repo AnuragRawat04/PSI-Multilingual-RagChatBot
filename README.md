@@ -28,11 +28,6 @@ A **Multilingual RAG Assistant Chatbot** that enables seamless communication acr
 
 ## ⚡ Quick Start
 
-### Prerequisites
-
-- Python 3.8+
-- pip (Python package manager)
-
 ### Installation & Running
 
 1. **Clone the repository**:
@@ -57,17 +52,6 @@ That's it! The app will launch with a user-friendly interface.
 
 ---
 
-## 🚀 How It Works
-
-1. **Upload Document**: Select a PDF/text file in any of the 8 supported languages
-2. **Automatic Translation**: Content is translated to English for uniform processing
-3. **Indexing**: Document is split into chunks and embedded into a vector database
-4. **Query**: Ask questions in any of the supported languages
-5. **Retrieval**: Relevant document chunks are retrieved using semantic search
-6. **Response**: The chatbot generates accurate answers based on the retrieved context
-
----
-
 ## 📝 Supported Languages
 
 - [translate:मराठी] (Marathi)
@@ -89,7 +73,16 @@ That's it! The app will launch with a user-friendly interface.
 We are actively working on resolving the deployment issues and will update this repository with a live link as soon as possible.
 
 ---
+## 🚀 How It Works
 
+1. **Upload Document**: Select a PDF/text file in any of the 8 supported languages
+2. **Automatic Translation**: Content is translated to English for uniform processing
+3. **Indexing**: Document is split into chunks and embedded into a vector database
+4. **Query**: Ask questions in any of the supported languages
+5. **Retrieval**: Relevant document chunks are retrieved using semantic search
+6. **Response**: The chatbot generates accurate answers based on the retrieved context
+
+---
 ## 📂 Project Structure
 
 ```
