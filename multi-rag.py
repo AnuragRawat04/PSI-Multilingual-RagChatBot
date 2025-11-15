@@ -4,7 +4,9 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain_chroma import Chroma
-from langchain.chains.retrieval import create_retrieval_chain
+# from langchain.chains.retrieval import create_retrieval_chain
+from langchain.chains import create_retrieval_chain
+
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -35,11 +37,11 @@ st.title("BharatDocs Chat")
 st.write("Upload PDFs in any Indian language and chat in English with document-aware answers.")
 
 # Groq API Key
-api_key = st.text_input("Enter your Groq API KEY:", type="password")
+api_key = st.text_input("Enter your Gemini API KEY:", type="password")
 #api_key="ikdjbfnjk"
 if api_key:
     # llm = ChatGroq(groq_api_key=api_key, model="openai/gpt-oss-120b")
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",api_key=os.getenv("GOOGLE_API_KEY"))
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash",api_key=api_key)
     translator = Translator()
 
     uploaded_files = st.file_uploader("📂 Upload PDFs", type="pdf", accept_multiple_files=True)
@@ -142,6 +144,7 @@ if api_key:
 
 else:
     st.warning("⚠️ Please enter your Groq API key.")
+
 
 
 
