@@ -85,8 +85,7 @@ That's it! The app will launch with a user-friendly interface.
 
 ⚠️ **Deployment Status**: Due to recent changes in LangChain documentation and API compatibility issues, a fully deployed version is currently unavailable. However, you can run the application locally using the quick start guide above.
 
-**Watch the Project Demo**: Check out our YouTube demo showcasing the full functionality: [INSERT_YOUTUBE_LINK_HERE]
-
+**Watch the Project Demo**: Check out our YouTube demo showcasing the full functionality: https://youtu.be/s71MUQZU93Q
 We are actively working on resolving the deployment issues and will update this repository with a live link as soon as possible.
 
 ---
