@@ -2,8 +2,18 @@
 
 A **Multilingual RAG Assistant Chatbot** that enables seamless communication across multiple Indian and international languages. Users can upload documents in [translate:Marathi], [translate:Assamese], [translate:Urdu], [translate:Telugu], [translate:Kannada], [translate:Malayalam], [translate:Odia], or English. The chatbot automatically translates content to English, retrieves relevant information, and generates context-aware responses—all while maintaining the semantic meaning of your documents.
 
+## 📺 Demo & Deployment Note
 
+⚠️ **Deployment Status**: Due to recent changes in LangChain documentation and API compatibility issues, a fully deployed version is currently unavailable. However, you can run the application locally using the quick start guide above.
 
+**Multip-rag.py**:This is the primary file implementing our project with Streamlit. To run the application, use the command:  
+`streamlit run multi-rag.py`
+**Fastapi.py**:This file contains a FastAPI implementation of the project that exposes the core functionality as an API. During the deployment process, I encountered challenges with the deployment, so I created this FastAPI alternative to ensure successful deployment and better scalability.
+
+**Watch the Project Demo**: Check out our YouTube demo showcasing the full functionality: https://youtu.be/s71MUQZU93Q
+We are actively working on resolving the deployment issues and will update this repository with a live link as soon as possible.
+
+---
 ## ⚡ Quick Start
 
 ### Installation & Running
@@ -30,17 +40,6 @@ That's it! The app will launch with a user-friendly interface.
 
 ---
 
-## 📺 Demo & Deployment Note
-
-⚠️ **Deployment Status**: Due to recent changes in LangChain documentation and API compatibility issues, a fully deployed version is currently unavailable. However, you can run the application locally using the quick start guide above.
-**Multip-rag.py**:This is the primary file implementing our project with Streamlit. To run the application, use the command:  
-`streamlit run multi-rag.py`
-**Fastapi.py**:This file contains a FastAPI implementation of the project that exposes the core functionality as an API. During the deployment process, I encountered challenges with the deployment, so I created this FastAPI alternative to ensure successful deployment and better scalability.
-
-**Watch the Project Demo**: Check out our YouTube demo showcasing the full functionality: https://youtu.be/s71MUQZU93Q
-We are actively working on resolving the deployment issues and will update this repository with a live link as soon as possible.
-
----
 ## 📝 Supported Languages
 
 - [translate:मराठी] (Marathi)
