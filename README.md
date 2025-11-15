@@ -7,7 +7,8 @@ A **Multilingual RAG Assistant Chatbot** that enables seamless communication acr
 ⚠️ **Deployment Status**: Due to recent changes in LangChain documentation and API compatibility issues, a fully deployed version is currently unavailable. However, you can run the application locally using the quick start guide above.
 
 **Multip-rag.py**:This is the primary file implementing our project with Streamlit. To run the application, use the command:  
-`streamlit run multi-rag.py`
+`streamlit run multi-rag.py`.
+
 **Fastapi.py**:This file contains a FastAPI implementation of the project that exposes the core functionality as an API. During the deployment process, I encountered challenges with the deployment, so I created this FastAPI alternative to ensure successful deployment and better scalability.
 
 **Watch the Project Demo**: Check out our YouTube demo showcasing the full functionality: https://youtu.be/s71MUQZU93Q
@@ -69,7 +70,8 @@ That's it! The app will launch with a user-friendly interface.
 PSI-Multilingual-RagChatBot/
 ├── README.md
 ├── requirements.txt
-├── multi-rag.py              # Main Streamlit app
+├── multi-rag.py
+├── Fastapi.py                 # Main Streamlit app
 ├── .env                       # API keys (create this)
 └── data/                      # Sample documents (optional)
 ```
